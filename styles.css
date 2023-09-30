@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 /* Reset some default styles */
 body, h1, h2, p {
@@ -49,47 +49,35 @@ nav a:hover {
     color: #ff9900;
 }
 nav {
-    width: 100%; /* و نجعله في المنتصفnav نقوم بإعطاءه العرض الذي نريده و لكن أقل  من عرض الصفحة حتى نتمكن من تحريك ال*/
-    display: flex; /* نستخدم هذه الخاصة حتى نجعل الوسم مرن و نتمكن من توزيع محتواه كما نريد*/
-     /* و تقوم بتوزيع العناصر في داخل الوسم بحيث تكون المسافات بينها متساوية flex أحد خواص */
+    width: 100%; 
+    display: flex; 
     justify-content: flex-end; 
-    /* في المنتصف nav هذه الخاصية تقوم بإضافة حواف تلقائية بحيث يظهر ال*/
-   
-  }
-
-
-nav img{
-    margin-right: 10px;
-   width: 40px;
 }
-
+nav img{
+margin-right: 10px;
+width: 40px;
+}
 .container {
     width: 90%;
-    display: flex; /* Display children divs as flex items */
-    justify-content: space-between; /* Space evenly between the two divs */
+    display: flex;
+    justify-content: space-between;
     margin-right: 5%;
     margin-left: 5%;
 }
-
 .left-div, .right-div {
-    flex-basis: 48%; /* Adjust the width as needed */
+    flex-basis: 48%; 
     padding: 10px;
     background-color: #fff;
-    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
     margin-top: 3%;
-   
-    
 }
 
 .left-div h2 {
-   
     font-weight:200px ;
     color: #73CBE3;
     margin-bottom:8%;
 }
 .left-div h1 {
     font-size: 50px;
-   
     color: #008CAF;
     margin-bottom: 10px;
 }
@@ -102,21 +90,18 @@ nav img{
     font-size: 20px;
     margin-top: 8%;
     margin-bottom: 10%;
-  
 }
 
 .right-div img {
     width: 50%;
-   margin-left: 25%;
-   
-   border-radius: 5% 0px 0px 40%;
-   overflow: hidden; /* Clip any content that overflows the circle */
-   box-shadow: -15px 0px 0px rgba(10, 107, 39, 0.3);
-
+    margin-left: 25%;
+    border-radius: 5% 0px 0px 40%;
+    overflow: hidden; /* Clip any content that overflows the circle */
+    box-shadow: -15px 0px 0px rgba(10, 107, 39, 0.3);
 }
 
 
-  .hire {
+.hire {
             background-color: #028AA9;
             color: white;
             border: none;
@@ -129,7 +114,6 @@ nav img{
             cursor: pointer;
             border-radius: 5px;
             box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-        
         }
 
         /* Hover effect */
